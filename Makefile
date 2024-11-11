@@ -8,7 +8,7 @@ SURREAL_DB := $(or $(SURREAL_DB),bot)
 
 .PHONY: logs
 
-bot:
+run:
 	python main.py
 server:
 	uvicorn server:app --reload --host 0.0.0.0 --port 80

@@ -1,13 +1,12 @@
 # <p align="center">Aiogram Mongo Template</p>
 
-### <p align="center"><a href="https://core.telegram.org/bots/api">Telegram Bot</a> template with <a href="https://docs.aiogram.dev/en/dev-3.x/">aiogram</a>, <a href="https://www.mongodb.com/">mongodb</a> and <a href="https://www.docker.com/">docker</a></p>
+### <p align="center"><a href="https://core.telegram.org/bots/api">Telegram Bot</a> template with <a href="https://docs.aiogram.dev/en/dev-3.x/">aiogram</a>, <a href="https://surrealdb.com/">surrealdb</a> and <a href="https://www.docker.com/">docker</a></p>
 
 ## Technologies used:
 
 - Aiogram
 - Redis
-- Motor
-- MongoDB
+- SurrealDB
 - i18n
 - Docker and docker compose
 
@@ -31,7 +30,7 @@
 ### Init project
 
 ```bash
-$ git clone -b aiogram3 https://github.com/webshining/aiogram-mongo-template project_name
+$ git clone https://github.com/webshining/telegram-totp project_name
 $ cd project_name
 $ pip install -r requirements.txt
 ```
@@ -60,15 +59,25 @@ $ cp .env.ren .env
 
 `RD_PORT` - your redis port
 
-> You can specify RD_URI instead of RD_DB, RD_HOST and RD_PORT
+`RD_PASS` - your redis password
+
+`RD_USER` - your redis username
+
+> You can specify RD_URI instead of RD_DB, RD_HOST, RD_PORT, RD_PASS and RD_USER
 
 `RD_URI` - connection url to your redis server
 
 ### Database config
 
-> MongoDB URL format<br> > `mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]`
+`SURREAL_URL` - your surrealdb url
 
-`MONGODB_URL` - connection url to your mongodb server
+`SURREAL_NS` - your surrealdb namespace
+
+`SURREAL_DB` - your surrealdb database name
+
+`SURREAL_USER` - your surrealdb username
+
+`SURREAL_PASS` - your surrealdb password
 
 ### Application start (local)
 
