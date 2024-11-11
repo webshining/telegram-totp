@@ -1,0 +1,48 @@
+services:
+  app:
+    build: .
+    restart: on-failure
+    depends_on:
+      - redis
+      - db
+    environment:
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:?}
+      RD_DB: ${RD_DB:-5}
+      RD_HOST: ${RD_HOST:-redis}
+      RD_PORT: ${RD_PORT:-6379}
+      RD_PASS: ${RD_PASS:-admin}
+      RD_USER: ${RD_USER:-admin}
+      SURREAL_URL: ${SURREAL_URL:-ws://db:8000/rpc}
+      SURREAL_NS: ${SURREAL_NS:-bot}
+      SURREAL_DB: ${SURREAL_DB:-bot}
+      SURREAL_USER: ${SURREAL_USER:-root}
+      SURREAL_PASS: ${SURREAL_PASS:-root}
+    entrypoint:
+      - ./bin/entrypoint.sh
+    volumes:
+      - ./logs:/app/logs
+  redis:
+    image: redis/redis-stack
+    restart: unless-stopped
+    environment:
+      REDIS_ARGS: "--requirepass ${RD_PASS:-admin} --user ${RD_USER:-admin} on >${RD_PASS:-admin} ~* allcommands --user default off nopass nocommands"
+    volumes:
+      - redis:/data
+  db:
+    image: surrealdb/surrealdb:latest
+    restart: unless-stopped
+    user: root
+    entrypoint:
+      - /surreal
+      - start
+      - --user
+      - ${SURREAL_USER:-root}
+      - --pass
+      - ${SURREAL_PASS:-root}
+      - rocksdb:/mydata/mydatabase.db
+    volumes:
+      - mydata:/mydata
+
+volumes:
+  mydata:
+  redis:

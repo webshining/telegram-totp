@@ -1,0 +1,215 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-11-11 16:50+0200\n"
+"PO-Revision-Date: 2023-09-26 01:25+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: app/commands/default.py:8
+msgid "get passwords"
+msgstr ""
+
+#: app/commands/default.py:9
+msgid "add totp key"
+msgstr ""
+
+#: app/commands/default.py:10
+msgid "remove totp key"
+msgstr ""
+
+#: app/commands/default.py:11
+msgid "start chat"
+msgstr "начать"
+
+#: app/handlers/users/add_totp.py:42
+#, fuzzy
+msgid "Enter name:"
+msgstr "Введите новое имя:"
+
+#: app/handlers/users/add_totp.py:49
+msgid "Send qr code:"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:64
+msgid "QR code not found"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:72
+msgid "Key added"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:14
+msgid "Select totp to delete:"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:14 app/handlers/users/totp.py:52
+msgid "Empty"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:37
+#, fuzzy
+msgid "Key deleted"
+msgstr "❌ Удалить"
+
+#: app/handlers/users/start.py:15
+msgid "Hello <b>{}</b>"
+msgstr "Привет <b>{}</b>"
+
+#: app/handlers/users/start.py:15
+msgid "Commands:"
+msgstr "Команди:"
+
+#: app/handlers/users/totp.py:50
+msgid " seconds left"
+msgstr ""
+
+#: app/keyboards/totp.py:15
+msgid "Add"
+msgstr ""
+
+#: app/keyboards/totp.py:16
+msgid "Remove"
+msgstr ""
+
+#: app/keyboards/totp.py:17
+#, fuzzy
+msgid "Refresh"
+msgstr "🔄 Обновить"
+
+#~ msgid "This week you pray for <b>{}</b>"
+#~ msgstr "На этой неделе вы молитесь за <b>{}</b>"
+
+#~ msgid "get needs [admin]"
+#~ msgstr "получить список нужд [админ]"
+
+#~ msgid "clear needs [admin]"
+#~ msgstr "очистить список нужд [админ]"
+
+#~ msgid "write a need"
+#~ msgstr "написать нужду"
+
+#~ msgid "search song"
+#~ msgstr "искать песню"
+
+#~ msgid "get groups"
+#~ msgstr "получить список групп"
+
+#~ msgid "change settings"
+#~ msgstr "изменить настройки"
+
+#~ msgid "get users [super_admin]"
+#~ msgstr "получить список пользователей [суперадмин]"
+
+#~ msgid "send message to all users [super_admin]"
+#~ msgstr "отправить сообщение всем пользователям [суперадмин]"
+
+#~ msgid "Not enough rights🚫"
+#~ msgstr "Не достаточно прав🚫"
+
+#~ msgid "Enter group name:"
+#~ msgstr "Введите название группы:"
+
+#~ msgid "No needs🫡"
+#~ msgstr "Нужд нету🫡"
+
+#~ msgid "Success"
+#~ msgstr "Готово"
+
+#~ msgid "Enter message text:"
+#~ msgstr "Введите текст сообщения:"
+
+#~ msgid "<b>Users:</b>"
+#~ msgstr "<b>Пользователи:</b>"
+
+#~ msgid "No users🫡"
+#~ msgstr "Пользователей нету🫡"
+
+#~ msgid "Do you really want to delete the group <b>{}</b>?"
+#~ msgstr "Вы действительно хотите удалить группу <b>{}</b>?"
+
+#~ msgid ""
+#~ "Do you really want to change the"
+#~ " group name from <b>{}</b> to "
+#~ "<b>{}</b>?"
+#~ msgstr ""
+#~ "Действительно ли вы хотите изменить "
+#~ "название группы с <b>{}</b> на "
+#~ "<b>{}</b>?"
+
+#~ msgid "Select group:"
+#~ msgstr "Выберите группу:"
+
+#~ msgid "Enter your name:"
+#~ msgstr "Введите ваше имя:"
+
+#~ msgid "Enter your need:"
+#~ msgstr "Введите вашу нужду:"
+
+#~ msgid "Enter song name:"
+#~ msgstr "Введите название песни:"
+
+#~ msgid "Select song:"
+#~ msgstr "Выберите песню:"
+
+#~ msgid "A song with this name was not found, try another:"
+#~ msgstr "Песню с таким названием не найдено, попробуйте другое:"
+
+#~ msgid "Looks like the song has no lyrics"
+#~ msgstr "Похоже, в песне нету слов"
+
+#~ msgid "Looks like the songs are out of memory or you used /cancel"
+#~ msgstr "Похоже в памяти нету песен, или вы использовали /cancel"
+
+#~ msgid "Looks like there’s no music on the resource for this song"
+#~ msgstr "Похоже, на ресурсе нет музыки для этой песни"
+
+#~ msgid "⚙️Settings:"
+#~ msgstr "⚙️Настройки:"
+
+#~ msgid "➕ Create"
+#~ msgstr "➕ Создать"
+
+#~ msgid "✏️ Edit"
+#~ msgstr "✏️ Изменить"
+
+#~ msgid "✍️ Send message"
+#~ msgstr "✍️ Отправить сообщение"
+
+#~ msgid "⬅️ Back"
+#~ msgstr "⬅️ Назад"
+
+#~ msgid "Chords: On"
+#~ msgstr "Аккорды: Вкл"
+
+#~ msgid "Chords: Off"
+#~ msgstr "Аккорды: Выкл"
+
+#~ msgid "Music"
+#~ msgstr "Музыка"
+
+#~ msgid "🌎Language"
+#~ msgstr "🌎Язык"
+
+#~ msgid "🔔Notifications: On"
+#~ msgstr "🔔Уведомления: Вкл"
+
+#~ msgid "🔕Notifications: Off"
+#~ msgstr "🔔Уведомления: Выкл"
+
+#~ msgid "cancel"
+#~ msgstr "отменить"
+

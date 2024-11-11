@@ -1,0 +1,344 @@
+# English translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-11-11 16:50+0200\n"
+"PO-Revision-Date: 2023-09-26 01:25+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: app/commands/default.py:8
+msgid "get passwords"
+msgstr ""
+
+#: app/commands/default.py:9
+msgid "add totp key"
+msgstr ""
+
+#: app/commands/default.py:10
+msgid "remove totp key"
+msgstr ""
+
+#: app/commands/default.py:11
+msgid "start chat"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:42
+msgid "Enter name:"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:49
+msgid "Send qr code:"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:64
+msgid "QR code not found"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:72
+msgid "Key added"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:14
+msgid "Select totp to delete:"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:14 app/handlers/users/totp.py:52
+msgid "Empty"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:37
+msgid "Key deleted"
+msgstr ""
+
+#: app/handlers/users/start.py:15
+msgid "Hello <b>{}</b>"
+msgstr ""
+
+#: app/handlers/users/start.py:15
+msgid "Commands:"
+msgstr ""
+
+#: app/handlers/users/totp.py:50
+msgid " seconds left"
+msgstr ""
+
+#: app/keyboards/totp.py:15
+msgid "Add"
+msgstr ""
+
+#: app/keyboards/totp.py:16
+msgid "Remove"
+msgstr ""
+
+#: app/keyboards/totp.py:17
+msgid "Refresh"
+msgstr ""
+
+#~ msgid "get users list [admin]"
+#~ msgstr ""
+
+#~ msgid "change language"
+#~ msgstr ""
+
+#~ msgid "Select language:"
+#~ msgstr ""
+
+#~ msgid "Language changed!"
+#~ msgstr ""
+
+#~ msgid "get lists"
+#~ msgstr ""
+
+#~ msgid "🗄 Users"
+#~ msgstr ""
+
+#~ msgid "📝 Lists"
+#~ msgstr ""
+
+#~ msgid "⚙️ Settings"
+#~ msgstr ""
+
+#~ msgid "Hello <b>{}</b>"
+#~ msgstr ""
+
+#~ msgid "Back"
+#~ msgstr ""
+
+#~ msgid "retrieve lists"
+#~ msgstr ""
+
+#~ msgid "Enter list name:"
+#~ msgstr ""
+
+#~ msgid "Do you really want to delete the list <b>{}</b>?"
+#~ msgstr ""
+
+#~ msgid "Do you really want to change the list name from <b>{}</b> to <b>{}</b>?"
+#~ msgstr ""
+
+#~ msgid "Select list:"
+#~ msgstr ""
+
+#~ msgid "get users list [super_admin]"
+#~ msgstr ""
+
+#~ msgid "start message"
+#~ msgstr ""
+
+#~ msgid "get schedule"
+#~ msgstr ""
+
+#~ msgid "get subjects info"
+#~ msgstr ""
+
+#~ msgid "get current lesson"
+#~ msgstr ""
+
+#~ msgid "State reset"
+#~ msgstr ""
+
+#~ msgid "Users is empty🫡"
+#~ msgstr ""
+
+#~ msgid "No class today"
+#~ msgstr ""
+
+#~ msgid "Classes are over"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Class ends at {} in {}"
+#~ msgstr ""
+
+#~ msgid "No class right now! Next class: <b>{}</b> at {} in {}"
+#~ msgstr ""
+
+#~ msgid "Schedule is empty🫡"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Hello <b>{name}</b>👋\n"
+#~ "I am a diary bot\n"
+#~ "<b>\n"
+#~ "\n"
+#~ "Commands:</b>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Creator: <b>@webshining</b>😉\n"
+#~ "Repositofy: <b><a href=\"https://github.com/webshining"
+#~ "/study-bot\">GitHub</a></b>"
+#~ msgstr ""
+
+#~ msgid "Subject not found🫡"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "<b>{}:</b>\n"
+#~ "Teacher: <b>{}</b>\n"
+#~ "Audience: <b>{}</b>"
+#~ msgstr ""
+
+#~ msgid "Select subject📚:"
+#~ msgstr ""
+
+#~ msgid "Subjects is empty🫡"
+#~ msgstr ""
+
+#~ msgid "This week"
+#~ msgstr ""
+
+#~ msgid "Next week"
+#~ msgstr ""
+
+#~ msgid "Monday Tuesday Wednesday Thursday Friday Saturday Sunday"
+#~ msgstr ""
+
+#~ msgid "Hello <b>{name}</b>"
+#~ msgstr ""
+
+#~ msgid "This week you pray for <b>{}</b>"
+#~ msgstr ""
+
+#~ msgid "get needs [admin]"
+#~ msgstr ""
+
+#~ msgid "clear needs [admin]"
+#~ msgstr ""
+
+#~ msgid "write a need"
+#~ msgstr ""
+
+#~ msgid "search song"
+#~ msgstr ""
+
+#~ msgid "get groups"
+#~ msgstr ""
+
+#~ msgid "change settings"
+#~ msgstr ""
+
+#~ msgid "get users [super_admin]"
+#~ msgstr ""
+
+#~ msgid "send message to all users [super_admin]"
+#~ msgstr ""
+
+#~ msgid "Not enough rights🚫"
+#~ msgstr ""
+
+#~ msgid "Enter group name:"
+#~ msgstr ""
+
+#~ msgid "No needs🫡"
+#~ msgstr ""
+
+#~ msgid "Success"
+#~ msgstr ""
+
+#~ msgid "Enter message text:"
+#~ msgstr ""
+
+#~ msgid "<b>Users:</b>"
+#~ msgstr ""
+
+#~ msgid "No users🫡"
+#~ msgstr ""
+
+#~ msgid "Do you really want to delete the group <b>{}</b>?"
+#~ msgstr ""
+
+#~ msgid "Enter new name:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Do you really want to change the"
+#~ " group name from <b>{}</b> to "
+#~ "<b>{}</b>?"
+#~ msgstr ""
+
+#~ msgid "Select group:"
+#~ msgstr ""
+
+#~ msgid "Enter your name:"
+#~ msgstr ""
+
+#~ msgid "Enter your need:"
+#~ msgstr ""
+
+#~ msgid "Enter song name:"
+#~ msgstr ""
+
+#~ msgid "Select song:"
+#~ msgstr ""
+
+#~ msgid "A song with this name was not found, try another:"
+#~ msgstr ""
+
+#~ msgid "Looks like the song has no lyrics"
+#~ msgstr ""
+
+#~ msgid "Looks like the songs are out of memory or you used /cancel"
+#~ msgstr ""
+
+#~ msgid "Looks like there’s no music on the resource for this song"
+#~ msgstr ""
+
+#~ msgid "⚙️Settings:"
+#~ msgstr ""
+
+#~ msgid "➕ Create"
+#~ msgstr ""
+
+#~ msgid "🔄 Refresh"
+#~ msgstr ""
+
+#~ msgid "❌ Delete"
+#~ msgstr ""
+
+#~ msgid "✏️ Edit"
+#~ msgstr ""
+
+#~ msgid "✍️ Send message"
+#~ msgstr ""
+
+#~ msgid "⬅️ Back"
+#~ msgstr ""
+
+#~ msgid "Chords: On"
+#~ msgstr ""
+
+#~ msgid "Chords: Off"
+#~ msgstr ""
+
+#~ msgid "Music"
+#~ msgstr ""
+
+#~ msgid "🌎Language"
+#~ msgstr ""
+
+#~ msgid "🔔Notifications: On"
+#~ msgstr ""
+
+#~ msgid "🔕Notifications: Off"
+#~ msgstr ""
+
+#~ msgid "cancel"
+#~ msgstr ""
+

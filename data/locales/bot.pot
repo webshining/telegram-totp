@@ -1,0 +1,87 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-11-11 16:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: app/commands/default.py:8
+msgid "get passwords"
+msgstr ""
+
+#: app/commands/default.py:9
+msgid "add totp key"
+msgstr ""
+
+#: app/commands/default.py:10
+msgid "remove totp key"
+msgstr ""
+
+#: app/commands/default.py:11
+msgid "start chat"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:42
+msgid "Enter name:"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:49
+msgid "Send qr code:"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:64
+msgid "QR code not found"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:72
+msgid "Key added"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:14
+msgid "Select totp to delete:"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:14 app/handlers/users/totp.py:52
+msgid "Empty"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:37
+msgid "Key deleted"
+msgstr ""
+
+#: app/handlers/users/start.py:15
+msgid "Hello <b>{}</b>"
+msgstr ""
+
+#: app/handlers/users/start.py:15
+msgid "Commands:"
+msgstr ""
+
+#: app/handlers/users/totp.py:50
+msgid " seconds left"
+msgstr ""
+
+#: app/keyboards/totp.py:15
+msgid "Add"
+msgstr ""
+
+#: app/keyboards/totp.py:16
+msgid "Remove"
+msgstr ""
+
+#: app/keyboards/totp.py:17
+msgid "Refresh"
+msgstr ""
+

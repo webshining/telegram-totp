@@ -1,0 +1,212 @@
+# Ukrainian translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-11-11 16:50+0200\n"
+"PO-Revision-Date: 2023-09-26 01:25+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: app/commands/default.py:8
+msgid "get passwords"
+msgstr ""
+
+#: app/commands/default.py:9
+msgid "add totp key"
+msgstr ""
+
+#: app/commands/default.py:10
+msgid "remove totp key"
+msgstr ""
+
+#: app/commands/default.py:11
+msgid "start chat"
+msgstr "почати"
+
+#: app/handlers/users/add_totp.py:42
+#, fuzzy
+msgid "Enter name:"
+msgstr "Введіть нову назву:"
+
+#: app/handlers/users/add_totp.py:49
+msgid "Send qr code:"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:64
+msgid "QR code not found"
+msgstr ""
+
+#: app/handlers/users/add_totp.py:72
+msgid "Key added"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:14
+msgid "Select totp to delete:"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:14 app/handlers/users/totp.py:52
+msgid "Empty"
+msgstr ""
+
+#: app/handlers/users/remove_totp.py:37
+#, fuzzy
+msgid "Key deleted"
+msgstr "❌ Видалити"
+
+#: app/handlers/users/start.py:15
+msgid "Hello <b>{}</b>"
+msgstr "Привіт <b>{}</b>"
+
+#: app/handlers/users/start.py:15
+msgid "Commands:"
+msgstr "Команды:"
+
+#: app/handlers/users/totp.py:50
+msgid " seconds left"
+msgstr ""
+
+#: app/keyboards/totp.py:15
+msgid "Add"
+msgstr ""
+
+#: app/keyboards/totp.py:16
+msgid "Remove"
+msgstr ""
+
+#: app/keyboards/totp.py:17
+#, fuzzy
+msgid "Refresh"
+msgstr "🔄 Оновити"
+
+#~ msgid "This week you pray for <b>{}</b>"
+#~ msgstr "На цьому тижні ви молитеся за <b>{}</b>"
+
+#~ msgid "get needs [admin]"
+#~ msgstr "отримати список потреб [адмін]"
+
+#~ msgid "clear needs [admin]"
+#~ msgstr "очистити список потреб [адмін]"
+
+#~ msgid "write a need"
+#~ msgstr "написати потребу"
+
+#~ msgid "search song"
+#~ msgstr "шукати пісню"
+
+#~ msgid "get groups"
+#~ msgstr "отримати список груп"
+
+#~ msgid "change settings"
+#~ msgstr "змінити налаштування"
+
+#~ msgid "get users [super_admin]"
+#~ msgstr "отримати список користувачів [суперадмін]"
+
+#~ msgid "send message to all users [super_admin]"
+#~ msgstr "відправити повідомлення всім користувачам [суперадмін]"
+
+#~ msgid "Not enough rights🚫"
+#~ msgstr "Недостатньо прав🚫"
+
+#~ msgid "Enter group name:"
+#~ msgstr "Введіть назву групи:"
+
+#~ msgid "No needs🫡"
+#~ msgstr "Потреб немає🫡"
+
+#~ msgid "Success"
+#~ msgstr "Готово"
+
+#~ msgid "Enter message text:"
+#~ msgstr "Введіть текст повідомлення:"
+
+#~ msgid "<b>Users:</b>"
+#~ msgstr "<b>Користувачі:</b>"
+
+#~ msgid "No users🫡"
+#~ msgstr "Користувачів немає🫡"
+
+#~ msgid "Do you really want to delete the group <b>{}</b>?"
+#~ msgstr "Ви дійсно хочете вилучити групу <b>{}</b>?"
+
+#~ msgid ""
+#~ "Do you really want to change the"
+#~ " group name from <b>{}</b> to "
+#~ "<b>{}</b>?"
+#~ msgstr "Ви дійсно хочете змінити назву групи з <b>{}</b> на <b>{}</b>?"
+
+#~ msgid "Select group:"
+#~ msgstr "Виберіть групу:"
+
+#~ msgid "Enter your name:"
+#~ msgstr "Введіть ваше ім`я:"
+
+#~ msgid "Enter your need:"
+#~ msgstr "Введіть вашу потребу:"
+
+#~ msgid "Enter song name:"
+#~ msgstr "Введіть назву пісні:"
+
+#~ msgid "Select song:"
+#~ msgstr "Виберіть пісню:"
+
+#~ msgid "A song with this name was not found, try another:"
+#~ msgstr "Пісню з такою назвою не знайдено, спробуйте іншу:"
+
+#~ msgid "Looks like the song has no lyrics"
+#~ msgstr "Схоже, в пісні немає слів"
+
+#~ msgid "Looks like the songs are out of memory or you used /cancel"
+#~ msgstr "Схоже в пам'яті нема пісень, або ви використовували /cancel"
+
+#~ msgid "Looks like there’s no music on the resource for this song"
+#~ msgstr "Схоже, що на ресурсі немає музики для цієї пісні"
+
+#~ msgid "⚙️Settings:"
+#~ msgstr "⚙️Налаштування"
+
+#~ msgid "➕ Create"
+#~ msgstr "➕ Створити"
+
+#~ msgid "✏️ Edit"
+#~ msgstr "✏️ Редагувати"
+
+#~ msgid "✍️ Send message"
+#~ msgstr "✍️ Надіслати повідомлення"
+
+#~ msgid "⬅️ Back"
+#~ msgstr "⬅️ Назад"
+
+#~ msgid "Chords: On"
+#~ msgstr "Акорди: Увімк"
+
+#~ msgid "Chords: Off"
+#~ msgstr "Акорди: Вимк"
+
+#~ msgid "Music"
+#~ msgstr "Музика"
+
+#~ msgid "🌎Language"
+#~ msgstr "🌎Мова"
+
+#~ msgid "🔔Notifications: On"
+#~ msgstr "🔔Повідомлення: Увімк"
+
+#~ msgid "🔕Notifications: Off"
+#~ msgstr "🔕Повідомлення: Вимк"
+
+#~ msgid "cancel"
+#~ msgstr "скасувати"
+
